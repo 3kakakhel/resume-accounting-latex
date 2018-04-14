@@ -1,0 +1,6 @@
+# Ignore all files that are not .tex files or included images.
+
+!*.tex
+!*.png
+!*.eps
+!*.ps
