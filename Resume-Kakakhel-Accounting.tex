@@ -1,86 +1,118 @@
-\documentclass{article}
+\documentclass[11pt]{article}
 \usepackage[margin=1cm]{geometry}
 \usepackage{enumitem}
-\usepackage{textgreek}
 \renewcommand{\familydefault}{\sfdefault}
-\usepackage[scaled=1]{berasans}
-\usepackage[T1]{fontenc}
+% \usepackage[scaled=1]{berasans}
+% \usepackage[T1]{fontenc}
+% \usepackage{fontspec}
+\usepackage{fontawesome}
+\usepackage{multirow}
+\usepackage{color}
 
 \pagenumbering{gobble}
 \renewcommand{\labelitemi}{$-$}
 
 \begin{document}
-\center{\Large\bf Ali Kakakhel}
-\vskip2mm
-\hrule
-\center{2104 \ \ 59th \ \ Ave \ \ Ct \ \ Greeley, \ \ CO \ \ 80634 \quad\qquad alikakakhel@yahoo.com \quad\qquad (970) 396-5137\\\ \\}
 
-\begin{description}[leftmargin=!,labelwidth=3cm]
+%
+% Header
+%
+\begin{center}
+\begin{tabular}{lr}
+\multirow{2}{13cm}{\Huge\bfseries Ali Kakakhel} & 970-396-5137                    \  \faPhone     \\
+                                                & 3kakakhel@gmail.com             \  \faEnvelopeO  \\
+                                                & 2104\ \ \ 59th\ \ \ Ave\ \ \ Ct \  \faHome      \\
+Accounting, Analytics, Programming, Physics     & Greeley,\ \ \ CO\ \ \ 80534     \  \color{white}{\faHome}      \\
+\hline
+\end{tabular}
+\end{center}
 
-\item[Summary of]
-Accounting, Data Analytics, Programming, Physics, Tutoring
-\vspace{-2.5mm}
-\item[Qualifications]
-
-% \item[Objective]
-% An audit internship position for Jan -- May 2017.
+%
+% Main Section
+%
+\begin{description}[leftmargin=!,labelwidth=2cm,align=right]
+\item[Objective]
+    An audit internship position for Jan -- May 2017.
 
 \item[Education]
-{\sl Master's of Accounting} \hfill Dec 2017\\
-University of Northern Colorado, Greeley, CO
+    \underline{Master's of Accounting} \hfill Dec 2017\\
+    University of Northern Colorado, Greeley, CO\\
+    Master's GPA: 3.67
+    \begin{itemize}[rightmargin=2cm,noitemsep]
+        \item Team developed accounting information system for client
+        \item Team completed entire mock audit process 33\% more efficiently
+        \item Team placed 2nd mock forensics case
+        % \item Completed partnership tax return
+    \end{itemize}
 
-{\sl Bachelor's of Business Administration, Accounting} \hfill Dec 2016\\
-University of Northern Colorado, Greeley, CO\\
-Accounting GPA: 3.8 \qquad\ \  Overall GPA: 3.85
+    \underline{Bachelor's of Business Administration, Accounting} \hfill Dec 2016\\
+    University of Northern Colorado, Greeley, CO\\
+    Accounting GPA: 3.70 \quad\ \  Overall GPA: 3.70
 
-{\sl Masters of Science, Radiological Physics} \hfill May 2012\\
-Wayne State University, Detroit, MI\\
-GPA: 3.43
+    \underline{Master's of Science, Radiological Physics} \hfill May 2012\\
+    Wayne State University, Detroit, MI\\
+    GPA: 3.43
 
-{\sl Bachelor of Science, Physics} \hfill May 2008\\
-Colorado State University, Fort Collins, CO \\
-Minor: Mathematics\\
-GPA: 3.787
+    \underline{Bachelor's of Science, Physics} \hfill May 2008\\
+    Colorado State University, Fort Collins, CO \\
+    GPA: 3.79
 
 \item[Experience]
-{\sl Data Analyst Intern} \hfill June 2016 -- July 2016\\North Colorado Medical Center
-\begin{itemize}[rightmargin=4.3cm]
-    \item Expanded the Python program to save results to a PostgreSQL database for future querying.
-    \item Developed dashboard to display and filter treatment plan quality results against various criteria.
-\end{itemize}
+    \underline{Radiation Oncology Physicist} \hfill May 2017 -- Present\\
+    McKee Medical Center
+    \begin{itemize}[rightmargin=2cm,noitemsep]
+        \item Assisted in commissioning of new TrueBeam linear accelerator
+        \item Assisted in monthly, quarterly, annual linear accelerator quality assurance
+        % \item Provided needed flexibility at busiest times
+        % \item Developed visualization for treatment plan quality measures
+        % \item Developed program to process data into quality measures
+        % \item Tracked treatment timelines, wait times, via dashboard
+        % \item Investigated process for 3D printing patient specific compensators
+        % \item Prepared data tables used by dosimetrists in treatment planning
+    \end{itemize}
 
-{\sl Professional Tutor} \hfill Jan 2013 -- Present\\Aims Community College
-\begin{itemize}[rightmargin=4.3cm]
-    \item Accounting, Math, Physics, Programming, Statistics
-\end{itemize}
+    \underline{Data Analyst Intern} \hfill June 2016 -- July 2016\\
+    North Colorado Medical Center
+    \begin{itemize}[rightmargin=2cm,noitemsep]
+        \item Worked with client face-to-face
+        \item Developed dashboard to display and filter treatment plan quality results
+        \item Integrated treatment plan processing program with database
+    \end{itemize}
 
-{\sl Data Entry Volunteer} \hfill May 2013 -- Present\\North Colorado Medical Center
-\begin{itemize}[rightmargin=4.3cm]
-    \item Prepared data tables used by dosimetrists in treatment planning.
-    \item Developed a Python program to process treatment plan data into various quality measures.
-    \item Developed dashboard, spreadsheet to track treatment timelines.
-    \item Developed dashboard, spreadsheet to track wait times.
-    \item Developed process for 3D printing patient specific compensators.
-    \item Assisted in commissioning of new TrueBeam Linear Accelerator.
-    \item Assisted in daily, monthly, annual Linear Accelerator quality \\ assurance.
-\end{itemize}
+    \underline{Medical Physics Volunteer} \hfill May 2013 -- May 2017\\
+    North Colorado Medical Center
+    \begin{itemize}[rightmargin=2cm,noitemsep]
+        \item Developed visualization for treatment plan quality measures
+        \item Developed program to process data into quality measures
+        \item Tracked treatment timelines, wait times, via dashboard
+        \item Investigated process for 3D printing patient specific compensators
+        \item Prepared data tables used by dosimetrists in treatment planning
+    \end{itemize}
+
+    \underline{Professional Tutor: STEM} \hfill Jan 2013 -- Present\\
+    Aims Community College
 
 \item[Leadership]
-Beta Alpha Psi (BAP)\ \ Community Service Officer \hfill Fall 2016\\
-Society of Physics Students\ \ Vice-President \hfill Fall 2007, Spring 2008
+    Beta Alpha Psi (BAP)\ \ Treasurer \hfill Fall 2017\\
+    Beta Alpha Psi (BAP)\ \ Community Service Officer \hfill Fall 2016\\
+    % Society of Physics Students\ \ Vice-President \hfill Fall 2007
+
+\item[Volunteering]
+	% TCR Soup Supper Fundraiser \hfill 2017\\
+	% VITA Volunteer \hfill 2016\\
+	Cattle Barron's Ball \hfill 2015, 2016, 2017\\
+	Weld Food Bank Gala \hfill 2015, 2016, 2017
+	% Medical Physics Volunteer \hfill 2013 -- 2017
 
 \item[Awards]
-US President's Volunteer Service Award \hfill Summer 2016\\
-BAP\ \ Gold Member \hfill Spring 2016\\
-BAP\ \ Community Service Award \hfill Spring 2016\\
-BAP\ \ Community Service Award \hfill   Fall 2015\\
-Dean's Citation for Academic Excellence \hfill Fall 2015
+    US President's Volunteer Service Award \hfill 2016\\
+    BAP\ \ Community Service Award \hfill 2015, 2016\\
 
-\item[Tools]
-Access\ \ \ Excel\ \ \ Matlab\ \ \ PostgreSQL\ \ \ Tableau
+% \item[Tools]
+%     Access\ \ \ Excel\ \ \ Matlab\ \ \ PostgreSQL\ \ \ SQLite\ \ \ Tableau\ \ \ D3.js
 
-\item[Languages]
-ACL\ \ \ C/C++\ \ \ JSON\ \ \ Python\ \ \ R\ \ \ SQL\ \ \ XBRL\ \ \ XML\\\ \\
+% \item[Languages]
+%     ACL\ \ \ C/C++\ \ \ HTML\ \ \ JavaScript\ \ \ JSON\ \ \ Python\ \ \ R\ \ \ SQL\ \ \ XBRL\ \ \ XML\\
 
 % \item[Productivity]
 % Microsoft Office, LibreOffice\\
