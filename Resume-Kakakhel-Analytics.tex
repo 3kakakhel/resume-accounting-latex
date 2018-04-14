@@ -1,81 +1,94 @@
-\documentclass{article}
+\documentclass[11pt]{article}
 \usepackage[margin=1cm]{geometry}
 \usepackage{enumitem}
-\usepackage{textgreek}
 \renewcommand{\familydefault}{\sfdefault}
-\usepackage[scaled=1]{berasans}
-\usepackage[T1]{fontenc}
+% \usepackage[scaled=1]{berasans}
+% \usepackage[T1]{fontenc}
+% \usepackage{fontspec}
+\usepackage{fontawesome}
+\usepackage{multirow}
+\usepackage{color}
 
 \pagenumbering{gobble}
 \renewcommand{\labelitemi}{$-$}
 
 \begin{document}
-\center{\Large\bf Ali Kakakhel}
-\vskip2mm
-\hrule
-\center{2104 \ \ 59th \ \ Ave \ \ Ct \ \ Greeley, \ \ CO \ \ 80634 \quad\qquad alikakakhel@yahoo.com \quad\qquad (970) 396-5137\\\ \\}
 
-\begin{description}[leftmargin=!,labelwidth=3cm]
+%
+% Header
+%
+\begin{center}
+\begin{tabular}{lr}
+\multirow{2}{13cm}{\Huge\bfseries Ali Kakakhel} & 970-396-5137                        \  \faPhone     \\
+                                                & alikakakhel@yahoo.com               \  \faEnvelopeO \\
+                                                & http://www.github/com/3kakakhel     \  \faGithubAlt \\
+Accounting, Analytics, Programming, Physics     & http://linkedin.com/in/ali-kakakhel \  \faLinkedin  \\
+\hline
+\end{tabular}
+\end{center}
 
-% \section{Objective}
-% An summer leadership position
-
+%
+% Main Section
+%
+\begin{description}[leftmargin=!,labelwidth=2cm,align=right]
+% \item[Objective]
+%     An audit internship position for Jan -- May 2017.
 \item[Tools]
-Access\ \ \ Excel\ \ \ Matlab\ \ \ PostgreSQL\ \ \ Tableau
+    Access\ \ \ Excel\ \ \ Matlab\ \ \ PostgreSQL\ \ \ SQLite\ \ \ Tableau
 
 \item[Languages]
-ACL\ \ \ C/C++\ \ \ JSON\ \ \ Python\ \ \ R\ \ \ SQL\ \ \ XBRL\ \ \ XML\\\ \\
- 
+    ACL\ \ \ C/C++\ \ \ JSON\ \ \ Python\ \ \ R\ \ \ SQL\ \ \ XBRL\ \ \ XML\\\
+
 \item[Education]
-{\sl Master's of Accounting} \hfill Dec 2017\\
-University of Northern Colorado, Greeley, CO
+    {\sl Master's of Accounting} \hfill Dec 2017\\
+    University of Northern Colorado, Greeley, CO
 
-{\sl Bachelor's of Business Administration, Accounting} \hfill Dec 2016\\
-University of Northern Colorado, Greeley, CO\\
-Accounting GPA: 3.8 \qquad\ \  Overall GPA: 3.85
+    {\sl Bachelor's of Business Administration, Accounting} \hfill Dec 2016\\
+    University of Northern Colorado, Greeley, CO\\
+    Accounting GPA: 3.8 \qquad\ \  Overall GPA: 3.85
 
-{\sl Masters of Science, Radiological Physics} \hfill May 2012\\
-Wayne State University, Detroit, MI\\
-GPA: 3.43
+    {\sl Masters of Science, Radiological Physics} \hfill May 2012\\
+    Wayne State University, Detroit, MI\\
+    GPA: 3.43
 
-{\sl Bachelor of Science, Physics} \hfill May 2008\\
-Colorado State University, Fort Collins, CO \\
-Minor: Mathematics\\
-GPA: 3.787
+    {\sl Bachelor of Science, Physics} \hfill May 2008\\
+    Colorado State University, Fort Collins, CO \\
+    Minor: Mathematics\\
+    GPA: 3.787
 
 \item[Experience]
-{\sl Data Analyst Intern} \hfill June 2016 -- July 2016\\North Colorado Medical Center
-\begin{itemize}[rightmargin=4.3cm]
-    \item Expanded the Python program to save results to a PostgreSQL database for future querying.
-    \item Developed dashboard to display and filter treatment plan quality results against various criteria.
-\end{itemize}
+    {\sl Data Analyst Intern} \hfill June 2016 -- July 2016\\North Colorado Medical Center
+    \begin{itemize}[rightmargin=2cm,noitemsep]
+        \item Expanded the Python program to save results to a PostgreSQL database for future querying.
+        \item Developed dashboard to display, filter treatment plan quality results against various criteria.
+    \end{itemize}
 
-{\sl Professional Tutor} \hfill Jan 2013 -- Present\\Aims Community College
-\begin{itemize}[rightmargin=4.3cm]
-    \item Accounting, Math, Physics, Programming, Statistics
-\end{itemize}
+    {\sl Professional Tutor} \hfill Jan 2013 -- Present\\Aims Community College
+    \begin{itemize}[rightmargin=2cm,noitemsep]
+        \item Accounting, Math, Physics, Programming, Statistics
+    \end{itemize}
 
-{\sl Data Entry Volunteer} \hfill May 2013 -- Present\\North Colorado Medical Center
-\begin{itemize}[rightmargin=4.3cm]
-    \item Prepared data tables used by dosimetrists in treatment planning.
-    \item Developed a Python program to process treatment plan data into various quality measures.
-    \item Developed dashboard, spreadsheet to track treatment timelines.
-    \item Developed dashboard, spreadsheet to track wait times.
-    \item Developed process for 3D printing patient specific compensators.
-    \item Assisted in commissioning of new TrueBeam Linear Accelerator.
-    \item Assisted in daily, monthly, annual Linear Accelerator quality \\ assurance.
-\end{itemize}
+    {\sl Data Entry Volunteer} \hfill May 2013 -- Present\\North Colorado Medical Center
+    \begin{itemize}[rightmargin=2cm,noitemsep]
+        \item Prepared data tables used by dosimetrists in treatment planning.
+        \item Developed a Python program to process data into various quality measures.
+        \item Developed dashboard, spreadsheet to track treatment timelines.
+        \item Developed dashboard, spreadsheet to track wait times.
+        \item Developed process for 3D printing patient specific compensators.
+        \item Assisted in commissioning of new TrueBeam Linear Accelerator.
+        \item Assisted in daily, monthly, annual Linear Accelerator quality assurance.
+    \end{itemize}
 
 \item[Leadership]
-Beta Alpha Psi (BAP)\ \ Community Service Officer \hfill Fall 2016\\
-Society of Physics Students\ \ Vice-President \hfill Fall 2007, Spring 2008
+    Beta Alpha Psi (BAP)\ \ Community Service Officer \hfill Fall 2016\\
+    Society of Physics Students\ \ Vice-President \hfill Fall 2007, Spring 2008
 
 \item[Awards]
-US President's Volunteer Service Award \hfill Summer 2016\\
-BAP\ \ Gold Member \hfill Spring 2016\\
-BAP\ \ Community Service Award \hfill Spring 2016\\
-BAP\ \ Community Service Award \hfill   Fall 2015\\
-Dean's Citation for Academic Excellence \hfill Fall 2015
+    US President's Volunteer Service Award \hfill Summer 2016\\
+    BAP\ \ Gold Member \hfill Spring 2016\\
+    BAP\ \ Community Service Award \hfill Spring 2016\\
+    BAP\ \ Community Service Award \hfill   Fall 2015\\
+    Dean's Citation for Academic Excellence \hfill Fall 2015
 
 % \item[Productivity]
 % Microsoft Office, LibreOffice\\
